@@ -1,13 +1,36 @@
-<!-- Profil README.md -->
+    <!-- About Section - Game Dialog Style -->
+    <section class="about-section" id="about">
+        <div class="game-container">
+            <!-- Background Image -->
+            <div class="game-background">
+                <img src="assets/udinus.png" alt="Background" class="bg-image">
+                <div class="bg-overlay"></div>
+            </div>
 
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=16&duration=30&pause=20&color=white&center=true&vCenter=true&width=950&lines=H_;Hi_;Hi%2C_;Hi%2C+I_;Hi%2C+I'%3B;Hi%2C+I'm_;Hi%2C+I'm+K_;Hi%2C+I'm+Ke_;Hi%2C+I'm+Kev_;Hi%2C+I'm+Kevi_;Hi%2C+I'm+Kevin_;Hi%2C+I'm+Kevin+A_;Hi%2C+I'm+Kevin+Ar_;Hi%2C+I'm+Kevin+Art_;Hi%2C+I'm+Kevin+Arty_;Hi%2C+I'm+Kevin+Artya_;Hi%2C+I'm+Kevin+Artya+C_;Hi%2C+I'm+Kevin+Artya+Ch_;Hi%2C+I'm+Kevin+Artya+Chr_;Hi%2C+I'm+Kevin+Artya+Chris_;Hi%2C+I'm+Kevin+Artya+Christ_;Hi%2C+I'm+Kevin+Artya+Christi_;Hi%2C+I'm+Kevin+Artya+Christia_;Hi%2C+I'm+Kevin+Artya+Christian_&pause=4000;I_;I'm_;I'm+a_;I'm+a+r_;I'm+a+ro_;I'm+a+roo_;I'm+a+rook_;I'm+a+rooki_;I'm+a+rookie_&pause=100" alt="Typing SVG" />
-  </a>
-</p>
+            <!-- Character Sprite -->
+            <div class="character-container">
+                <img src="assets/pixel-removebg-preview.png" alt="Kevin Character" class="character-sprite"
+                    id="characterSprite">
+            </div>
 
+            <!-- Dialog Box -->
+            <div class="dialog-box">
+                <div class="dialog-header">
+                    <span class="character-name" id="characterName">Kevin</span>
+                </div>
+                <div class="dialog-content">
+                    <p class="dialog-text" id="dialogText"></p>
+                    <div class="continue-indicator">
+                        <span class="arrow-down">▼</span>
+                    </div>
+                </div>
+            </div>
 
-
-<p align="center">
-  <em>Linux user enthusiasts | Pentesting Enthusiast | OSINT Explorer</em>
-</p>
+            <!-- Dialog Navigation -->
+            <div class="dialog-nav">
+                <button class="dialog-btn prev-btn" id="prevBtn">◄ Prev</button>
+                <span class="dialog-counter" id="dialogCounter">1 / 3</span>
+                <button class="dialog-btn next-btn" id="nextBtn">Next ►</button>
+            </div>
+        </div>
+    </section>
