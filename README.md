@@ -1,20 +1,29 @@
 ### ![K4rtyax](./banner.svg)
-`Kevin Artya Christian`
-
 *i (not)hack, therefore i am*
 
 ```json
 {
-  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI...[REDACTED]",
-  "token_type": "Bearer",
-  "expires_in": 3600,
-  "scope": "openid profile email offline_access",
-  "claims": {
-    "identity": "K4rtyax",
-    "privilege_level": "root",
-    "mindset": [
-      "Reject common sense to make the impossible possible. — Kamina",
-      "It's not about how hard you hit. It's about how hard you can get hit and keep moving. — Rocky Balboa"
-    ]
-  }
+    "user_menu": {
+        "owner": {
+            "login": "kartyax",
+            "name": "Kevin Artya Christian",
+            "specialty": "OAuth Misconfig & Pre-ATO",
+            "mindset": [
+                "Reject common sense to make the impossible possible. — Kamina",
+                "It's not about how hard you hit. It's about how hard you can get hit and keep moving. — Rocky"
+            ],
+            "avatarUrl": "https://avatars.githubusercontent.com/u/185532379?v=4"
+        },
+        "lazyLoadItemDataFetchUrl": "/_side-panels/user.json",
+        "loginAccountPath": "/login?add_account=1"
+    },
+    "agents_menu": {
+        "authorization": "Bypassed",
+        "security_posture": "Thoughts and prayers",
+        "data_privacy": "Stored securely on my local machine"
+    },
+    "account_switch_dialog": {
+        "show": false,
+        "fallback_message": "// the rest is classified"
+    }
 }
