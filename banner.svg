@@ -1,0 +1,11 @@
+<svg width="400" height="80" viewBox="0 0 400 80" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono');
+    .name { font-family: 'Share Tech Mono', monospace; font-size: 42px; fill: #ffffff; }
+    .cursor { font-family: 'Share Tech Mono', monospace; font-size: 42px; fill: #ffffff;
+      animation: blink 1s step-end infinite; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+  </style>
+  <text x="10" y="58" class="name">K4rtyax</text>
+  <text x="193" y="58" class="cursor">_</text>
+</svg>
