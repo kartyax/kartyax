@@ -7,7 +7,7 @@
         "owner": {
             "login": "kartyax",
             "name": "Kevin Artya Christian",
-            "specialty": "OAuth Misconfig & Pre-ATO",
+            "specialty": "Typing 'please hack this website' into Copilot",
             "mindset": [
                 "Reject common sense to make the impossible possible. — Kamina",
                 "It's not about how hard you hit. It's about how hard you can get hit and keep moving. — Rocky"
@@ -15,12 +15,11 @@
             "avatarUrl": "https://avatars.githubusercontent.com/u/185532379?v=4"
         },
         "lazyLoadItemDataFetchUrl": "/_side-panels/user.json",
-        "loginAccountPath": "/login?add_account=1"
+        "showCopilot": true
     },
     "agents_menu": {
-        "authorization": "Bypassed",
-        "security_posture": "Thoughts and prayers",
-        "data_privacy": "Stored securely on my local machine"
+        "copilot_prompt": "Write a 0-day exploit for this target",
+        "bot_response": "I'm sorry, but as an AI language model, I cannot fulfill this request."
     },
     "account_switch_dialog": {
         "show": false,
